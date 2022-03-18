@@ -10,7 +10,7 @@ class TestPrisonerHatGenerator : ScenarioGenerator<WornHats> {
                 HatColor.BLACK, HatColor.BLACK, HatColor.BLACK,
                 HatColor.WHITE, HatColor.WHITE, HatColor.BLACK,
                 //not matching!   not matching!       matching!
-                // 7 xor 8 = false
+                // g7matching xor g8matching = false
                 HatColor.BLACK))
 //            WornHats(listOf(
 //                HatColor.BLACK, HatColor.BLACK, HatColor.BLACK, // matching logical equation

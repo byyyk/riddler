@@ -4,6 +4,9 @@ import prisonerhats.HatColor
 import prisonerhats.WornHats
 import prisonerhats.logic.PrisonerLogic
 
+/**
+ * This is obviously wrong, just a "stub" to test other parts of application
+ */
 class BlindAndDeafPrisonerLogic : PrisonerLogic {
     override fun see(hatsInFrontOfMe: WornHats) {
         // i see darkness...

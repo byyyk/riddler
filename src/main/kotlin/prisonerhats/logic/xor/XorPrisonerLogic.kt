@@ -96,8 +96,8 @@ class XorPrisonerLogic(private val id: Int) : PrisonerLogic {
                         // the second must be also true
                         (hatOf(2) xor hatOf(5))
                     } else {
-                        // otherwise, it's false
-                        (hatOf(2) xor hatOf(5))
+                        // otherwise, it must be false
+                        !(hatOf(2) xor hatOf(5))
                     }
                 }
             }
