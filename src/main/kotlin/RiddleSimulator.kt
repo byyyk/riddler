@@ -18,7 +18,10 @@ class RiddleSimulator<T, V>(
 
         if (failedScenarios.isNotEmpty()) {
             LOG.error("${failedScenarios.count()}/${scenarios.count()} scenarios failed!")
-            failedScenarios.forEach {LOG.error("    - scenario ${it.first} finished with wrong outcome: ${it.second}")}
+//            failedScenarios.forEach {LOG.error("""
+//                |
+//                |       ${it.first}
+//                |   ${it.second}""".trimMargin())}
         } else {
             LOG.info("All ${scenarios.count()} scenarios passed!")
         }
