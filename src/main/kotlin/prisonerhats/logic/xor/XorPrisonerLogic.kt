@@ -9,6 +9,10 @@ import java.lang.IllegalArgumentException
 import java.lang.IllegalStateException
 
 /**
+ * An alternative solution to the Prisoner Hat riddle based on XOR operations - works only on 10 prisoners though.
+ * Requires the prisoners to be super smart and fast thinking :)
+ * A lot of code repetition as it might be easier to understand seeing all the prisoner numbers.
+ *
  * white = true
  * black = false
  */
